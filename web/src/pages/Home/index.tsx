@@ -1,10 +1,22 @@
 import React from "react";
-
 import HomeSVG from '../../assets/home.svg';
 
 import { Button, Container, Content, Header } from "./styles";
 
 const Home = () => {
+
+  const handleExample1 = () => {
+    location.href = "https://rotinacompartilhamento.page.link/?link=https://rotinacompartilhamento.page.link/__/example1&apn=com.rotinacompartilhamento"
+  }
+
+  const handleExample2 = () => {
+    location.href = "https://rotinacompartilhamento.page.link/?link=https://rotinacompartilhamento.page.link/__/example2?param=teste&apn=com.rotinacompartilhamento"
+  }
+
+  const handleExample3 = () => {
+    location.href = "https://rotinacompartilhamento.page.link/?link=https://rotinacompartilhamento.page.link/__/example3&afl=https://rotina-de-compartilhamento.web.app/example&ifl=https://rotina-de-compartilhamento.web.app/example&apn=com.rotinacompartilhamento"
+  }
+
   return (
     <Container>
       <img src={HomeSVG} />
@@ -16,9 +28,9 @@ const Home = () => {
         </Header>
 
         <Content>
-          <Button>Exemplo 1</Button>
-          <Button>Exemplo 2</Button>
-          <Button>Exemplo 3</Button>
+          <Button onClick={handleExample1}>Exemplo 1</Button>
+          <Button onClick={handleExample2}>Exemplo 2</Button>
+          <Button onClick={handleExample3}>Exemplo 3</Button>
         </Content>
       </div>
     </Container>
