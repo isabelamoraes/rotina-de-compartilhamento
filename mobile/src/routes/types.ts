@@ -4,7 +4,7 @@ export type Example2RouteProps = {
   param?: string;
 };
 
-type RootStackParamList = {
+export type RootStackParamList = {
   Home: undefined;
   Example1: undefined;
   Example2: Example2RouteProps | undefined;
