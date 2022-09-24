@@ -1,4 +1,5 @@
 <resources>
   <color name="splashscreen_bg">#ffffff</color>
   <color name="app_bg">#ffffff</color>
+  <color name="ic_launcher_background">#ffffff</color>
 </resources>
