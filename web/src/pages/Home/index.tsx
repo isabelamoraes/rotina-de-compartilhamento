@@ -14,7 +14,7 @@ const Home = () => {
   }
 
   const handleExample3 = () => {
-    location.href = "https://rotinacompartilhamento.page.link/?link=https://rotinacompartilhamento.page.link/__/example3&afl=https://rotina-de-compartilhamento.web.app/example&ifl=https://rotina-de-compartilhamento.web.app/example&apn=com.rotinacompartilhamento"
+    location.href = "https://rotinacompartilhamento.page.link/?link=https://rotina-de-compartilhamento.web.app/__/example3&afl=https://rotina-de-compartilhamento.web.app/__/example3&ifl=https://rotina-de-compartilhamento.web.app/__/example3&apn=com.rotinacompartilhamento"
   }
 
   return (
