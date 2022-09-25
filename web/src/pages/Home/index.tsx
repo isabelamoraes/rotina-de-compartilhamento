@@ -6,15 +6,15 @@ import { Button, Container, Content, Header } from "./styles";
 const Home = () => {
 
   const handleExample1 = () => {
-    location.href = "https://rotinacompartilhamento.page.link/?link=https://rotinacompartilhamento.page.link/__/example1&apn=com.rotinacompartilhamento"
+    location.href = "https://rotinacompartilhamento.page.link/?link=https://rotinacompartilhamento.page.link/__/example1&apn=com.rotinacompartilhamento&isi=6443509655&ibi=com.rotinacompartilhamento"
   }
 
   const handleExample2 = () => {
-    location.href = "https://rotinacompartilhamento.page.link/?link=https://rotinacompartilhamento.page.link/__/example2?param=teste&apn=com.rotinacompartilhamento"
+    location.href = "https://rotinacompartilhamento.page.link/?link=https://rotinacompartilhamento.page.link/__/example2?param=teste&apn=com.rotinacompartilhamento&isi=6443509655&ibi=com.rotinacompartilhamento"
   }
 
   const handleExample3 = () => {
-    location.href = "https://rotinacompartilhamento.page.link/?link=https://rotina-de-compartilhamento.web.app/__/example3&afl=https://rotina-de-compartilhamento.web.app/__/example3&ifl=https://rotina-de-compartilhamento.web.app/__/example3&apn=com.rotinacompartilhamento"
+    location.href = "https://rotinacompartilhamento.page.link/?link=https://rotina-de-compartilhamento.web.app/__/example3&afl=https://rotina-de-compartilhamento.web.app/__/example3&ifl=https://rotina-de-compartilhamento.web.app/__/example3&apn=com.rotinacompartilhamento&isi=6443509655&ibi=com.rotinacompartilhamento"
   }
 
   return (
