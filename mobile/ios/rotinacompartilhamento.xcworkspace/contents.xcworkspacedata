@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:rotinacompartilhamento.xcodeproj">
+      location = "group:/Users/user225754/rotina-de-compartilhamento/mobile/ios/rotinacompartilhamento.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
