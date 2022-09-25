@@ -63,4 +63,9 @@ export const Button = styled.button`
     transition: .2s;
     cursor: pointer
   }
+
+  :disabled {
+    background: ${({ theme }) => theme.colors.gray};
+    border: none;
+  }
 `

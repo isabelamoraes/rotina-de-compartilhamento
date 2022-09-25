@@ -5,6 +5,8 @@ import { Button, Container, Content, Header } from "./styles";
 
 const Home = () => {
 
+  const isDesktop = window.screen.width >= 768;
+
   const handleExample1 = () => {
     location.href = "https://rotinacompartilhamento.page.link/?link=https://rotinacompartilhamento.page.link/__/example1&apn=com.rotinacompartilhamento&isi=6443509655&ibi=com.rotinacompartilhamento"
   }
@@ -28,8 +30,8 @@ const Home = () => {
         </Header>
 
         <Content>
-          <Button onClick={handleExample1}>Exemplo 1</Button>
-          <Button onClick={handleExample2}>Exemplo 2</Button>
+          <Button onClick={handleExample1} disabled={isDesktop}>Exemplo 1</Button>
+          <Button onClick={handleExample2} disabled={isDesktop}>Exemplo 2</Button>
           <Button onClick={handleExample3}>Exemplo 3</Button>
         </Content>
       </div>
