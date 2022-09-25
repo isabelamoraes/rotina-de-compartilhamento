@@ -62,3 +62,4 @@ buck-out/
 
 # Google Services
 google-services.json
+GoogleService-Info.plist

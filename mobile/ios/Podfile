@@ -1,6 +1,8 @@
 require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
+$RNFirebaseAsStaticFramework = true
+
 platform :ios, '11.0'
 install! 'cocoapods', :deterministic_uuids => false
 
@@ -18,6 +20,8 @@ target 'rotinacompartilhamento' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
+
+  use_frameworks! :linkage => :static
 
   target 'rotinacompartilhamentoTests' do
     inherit! :complete
