@@ -43,6 +43,7 @@
 		5709B34CF0A7D63546082F79 /* Pods-rotinacompartilhamento.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rotinacompartilhamento.release.xcconfig"; path = "Target Support Files/Pods-rotinacompartilhamento/Pods-rotinacompartilhamento.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-rotinacompartilhamento-rotinacompartilhamentoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rotinacompartilhamento-rotinacompartilhamentoTests.debug.xcconfig"; path = "Target Support Files/Pods-rotinacompartilhamento-rotinacompartilhamentoTests/Pods-rotinacompartilhamento-rotinacompartilhamentoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = rotinacompartilhamento/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8845B81D28E0AE1D006EA6D6 /* rotinacompartilhamento.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = rotinacompartilhamento.entitlements; path = rotinacompartilhamento/rotinacompartilhamento.entitlements; sourceTree = "<group>"; };
 		8847950028E004B7009BB9E6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-rotinacompartilhamento-rotinacompartilhamentoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rotinacompartilhamento-rotinacompartilhamentoTests.release.xcconfig"; path = "Target Support Files/Pods-rotinacompartilhamento-rotinacompartilhamentoTests/Pods-rotinacompartilhamento-rotinacompartilhamentoTests.release.xcconfig"; sourceTree = "<group>"; };
 		A17B0DC9CAE14E1B814100DB /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -92,6 +93,7 @@
 		13B07FAE1A68108700A75B9A /* rotinacompartilhamento */ = {
 			isa = PBXGroup;
 			children = (
+				8845B81D28E0AE1D006EA6D6 /* rotinacompartilhamento.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -483,7 +485,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = rotinacompartilhamento/rotinacompartilhamento.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4LBQQ83C4V;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = rotinacompartilhamento/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Rotina de Compartilhamento";
@@ -498,6 +505,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rotinacompartilhamento;
 				PRODUCT_NAME = rotinacompartilhamento;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Profile Rotina de compartilhamento";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -510,7 +519,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = rotinacompartilhamento/rotinacompartilhamento.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 4LBQQ83C4V;
 				INFOPLIST_FILE = rotinacompartilhamento/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Rotina de Compartilhamento";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -524,6 +538,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.rotinacompartilhamento;
 				PRODUCT_NAME = rotinacompartilhamento;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Profile Rotina de compartilhamento";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
