@@ -1,22 +1,22 @@
-<h1 align="center">
+<h2 align="center">
   Dynamic Links com Firebase no React Native
-</h1>
+</h2>
 
-<h4 align="center">
+<h3 align="center">
   Rotina de Compartilhamento #9 - Liven
-</h4>
+</h3>
 
 <p align="center">
   <img alt="Mobile Application Demo" src="https://github.com/isabelamoraes/rotina-de-compartilhamento/blob/main/demo/rotina.gif?raw=true" width="60%">
 </p>
 
-## Dynamic Links
+## 🔗 Dynamic Links
 
 O Dynamic link é um recurso que permite definir o comportamento de um link dependendo da plataforma em que ele for acessado, proporcionando uma melhor experiência ao usuário.
 
 Através dele, podemos definir qual tela do app nativo deverá ser aberta quando o usuário acessar o Dynamic Link por um dispositivo iOS ou Android, qual o comportamento caso o usuário não possua o app instalado e como ele deverá funcionar caso seja aberto em navegador desktop.
 
-## Projeto
+## 📁 Projeto
 
 Esse projeto foi desenvolvido com o intuito de explorar a implementação do Dynamic Links com Firebase em aplicações React Native, na Rotina de Compartilhamento #9 na Liven.
 
@@ -26,7 +26,7 @@ O projeto consiste em duas aplicações: web e mobile. Enquanto essa primeira bu
 
 - **Mobile**: o aplicativo Android e iOS foi desenvolvido utilizando o framework [React Native](https://reactnative.dev/).
 
-## Pré-requisitos
+## 🔧 Pré-requisitos
 
 **Criar o projeto no Firebase**
 - Configurar web app e [Firebase Hosting](https://firebase.google.com/docs/hosting/).
@@ -35,7 +35,7 @@ O projeto consiste em duas aplicações: web e mobile. Enquanto essa primeira bu
 **React Native Firebase**
 - Para iniciar com a lib [React Native Firebase](https://rnfirebase.io/) é necessário instalar o módulo `app` e realizar o setup na aplicação Android e iOS. Em seguida, para configurar o Dynamic Links no seu projeto, é necessário prosseguir com a instalação dos módulos `analytics` e `dynamic-links`.
 
-## Configuração Firebase Console
+## 🛠 Configuração Firebase Console
 No menu `Engajamento`, selecionar a opção `Dynamic Links` e clicar em `Vamos começar`. 
 Definir o domínio (Ex: `rotinacompartilhamento.page.link`) e prosseguir com as etapas.
 Com o domínio criado, é hora de começar a criar os dynamic links. Para isso, clique em `Criar link dinâmico` e complete as etapas abaixo:
@@ -49,16 +49,16 @@ Com o domínio criado, é hora de começar a criar os dynamic links. Para isso, 
 @TODO - Adicionar imagem
 
 
-## Configuração Android
+## 🛠 Configuração Android
 `@TODO`
 
-## Configuração iOS
+## 🛠 Configuração iOS
 `@TODO`
 
-## Configuração React Native
+## 🛠 Configuração React Native
 `@TODO`
 
-## Instruções
+## 📃 Instruções
 
 Para clonar essa aplicação, execute os seguintes comandos:
 
@@ -102,7 +102,7 @@ yarn ios
 
 ```
 
-## Referências
+## 📚 Referências
 
 Esse conteúdo foi criado com base nas documentações abaixo:
 
